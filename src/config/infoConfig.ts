@@ -7,6 +7,7 @@ export const name = 'Haoling Huang'
 export const headline = 'Sun Yat-sen University'
 export const introduction = "Information Engineering"
 export const introduction2 ="School of System Science and Engineering"
+export const email = 'huanghling8@mail2.sysu.edu.cn'
 export const githubUsername = 'Skylarkkkk'
 
 // about page
