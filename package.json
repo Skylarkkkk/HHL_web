@@ -29,6 +29,7 @@
     "cheerio": "^1.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "derekhut-portfolio-template": "link:",
     "fast-glob": "^3.3.2",
     "favicon-stealer": "^1.2.0",
     "feed": "^4.2.2",

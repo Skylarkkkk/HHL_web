@@ -3,7 +3,7 @@ import Newsletter from '@/components/home/Newsletter'
 import Career from '@/components/home/Career'
 import Education from '@/components/home/Education'
 import SocialLinks from '@/components/home/SocialLinks'
-import { headline, introduction } from '@/config/infoConfig'
+import { headline, introduction, introduction2 } from '@/config/infoConfig'
 import { BlogCard } from '@/components/home/BlogCard'
 import { getAllBlogs, type BlogType } from '@/lib/blogs'
 import { ProjectCard } from '@/components/project/ProjectCard'
@@ -27,6 +27,9 @@ export default async function Home() {
             </h2>
             <p className="mt-6 text-xl text-muted-foreground">
               {introduction}
+            </p>
+            <p className="mt-2 text-xl text-muted-foreground">
+              {introduction2}
             </p>
             <SocialLinks className='md:mt-24'/>
           </div>
@@ -109,7 +112,7 @@ export default async function Home() {
 
           {/* right column */}
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Career />
+            {/* <Career /> */}
             <Education />
           </div>
         </div>

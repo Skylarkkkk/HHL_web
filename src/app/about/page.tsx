@@ -11,7 +11,7 @@ import SocialLinks from '@/components/about/SocialLinks'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Haoling Huang.Welcome to my personal homepage!',
 }
 
 export default function About() {
@@ -38,8 +38,10 @@ export default function About() {
             ))}
           </div>
         </div>
-        <div className="lg:pl-20">
+        <div className="lg:pl-20 mt-8 w-full">
+        <div className="max-w-screen-xl">
           <SocialLinks />
+        </div>
         </div>
       </div>
     </Container>

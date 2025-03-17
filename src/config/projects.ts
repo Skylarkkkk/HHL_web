@@ -16,20 +16,20 @@ export type ActivityItemType = {
 
 // Awards
 export const awardsHeadLine = "Awards & Honors"
-export const awardsIntro = "Recognition for academic and professional achievements."
+export const awardsIntro = "Recognition for academic achievements and contributions."
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
+    name: 'CMC Provincial Competition',
+    description: 'Second Prize',
     date: '2024',
-    location: 'SCLS, Shanghai',
+    location: 'SYSU, Guangzhou',
   },
   {
-    name: 'Zhui Ying Award',
-    description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    name: 'Sun Yat-sen University Outstanding Student  Scholarship',
+    description: 'First Class',
+    date: '2023-2024',
+    location: 'SYSU, Guangzhou',
   },
 ]
 
@@ -39,28 +39,10 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
-  },
-  {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
-  },
-  {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'remote-sensing-band-calculator',
+    description: 'Actually it is just a homework for my remote sensing course.I place it here to test the function of the website.',
+    link: { href: 'https://github.com/Skylarkkkk/remote-sensing-band-calculator_homework', label: 'GitHub Cards' },
+    tags: ['C++', 'remote sensing', 'band calculator'],
   },
 ]
 
@@ -70,26 +52,10 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'Music',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
-  },
-  {
-    name: 'AI Ethics Discussion',
-    description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
-  },
-  {
-    name: 'Code Review Session',
-    description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+      'I love playing drums and guitar.You can find some videos in my wechat channel.I world share some videos irregularly.',
+    date: '2025-03-18',
+    location: 'Guangzhou',
   },
 ]
