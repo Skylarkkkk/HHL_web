@@ -27,9 +27,6 @@ function ThemeWatcher() {
       }
     }
 
-    // 初始化为dark
-    
-
     onMediaChange()
     media.addEventListener('change', onMediaChange)
 
